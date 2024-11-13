@@ -41,6 +41,7 @@ public class CalculateVenueCostTest {
 	}
 
 	@Test
+	// TODO create a parameterized test
 	public void calculateCost() {
 		MainPage mainPage = new MainPage(driver);
 		mainPage.clickVenueDropDown();
